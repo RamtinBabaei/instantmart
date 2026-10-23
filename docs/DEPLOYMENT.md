@@ -2,7 +2,7 @@
 
 ## Current hosted demo
 
-Demo: **https://instantmart-ramtin.shaficp.chatgpt.site**
+Demo: **https://instantmart.ramtinbabaei-portfolio.workers.dev**
 
 Source: **https://github.com/RamtinBabaei/instantmart**
 
@@ -96,3 +96,8 @@ No automatic deploy-on-push workflow is included: publishing credentials belong 
 - Resolve the documented development-only dependency advisory when an upstream patch becomes available.
 
 These are explicit limits of a portfolio deployment, not hidden integrations or simulated production capabilities.
+
+
+## Public demo address
+
+The public URL above is served by the account’s dedicated Cloudflare Worker gateway. The gateway forwards requests to the existing application service, preserving its database, uploads, sessions, and application behavior. This changes the public address without migrating or resetting application records. The origin is configured as the `SOURCE_ORIGIN` Worker secret and is not committed to source. Gateway code is in `infrastructure/public-domain/worker.mjs`.
