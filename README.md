@@ -4,7 +4,7 @@
 
 A full-stack grocery commerce platform by **Ramtin Babaei**, with a customer storefront, store management studio, and delivery partner workspace. Built with React, TypeScript, Tailwind CSS, and a transactional SQL backend on Cloudflare Workers.
 
-**[Open the online demo](https://instantmart-ramtin.shaficp.chatgpt.site)** · **[Source code](https://github.com/RamtinBabaei/instantmart)** · [Testing report](docs/TESTING_REPORT.md) · [Architecture](docs/ARCHITECTURE.md)
+**[Open the online demo](https://instantmart.ramtinbabaei-portfolio.workers.dev)** · **[Source code](https://github.com/RamtinBabaei/instantmart)** · [Testing report](docs/TESTING_REPORT.md) · [Architecture](docs/ARCHITECTURE.md)
 
 This is a working portfolio demo. Demo orders do not dispatch groceries or collect money. It is not represented as a commercially launched grocery service.
 
