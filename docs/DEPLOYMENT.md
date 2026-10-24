@@ -97,7 +97,6 @@ No automatic deploy-on-push workflow is included: publishing credentials belong 
 
 These are explicit limits of a portfolio deployment, not hidden integrations or simulated production capabilities.
 
-
 ## Public demo address
 
 The public URL above is served by the account’s dedicated Cloudflare Worker gateway. The gateway forwards requests to the existing application service, preserving its database, uploads, sessions, and application behavior. This changes the public address without migrating or resetting application records. The origin is configured as the `SOURCE_ORIGIN` Worker secret and is not committed to source. Gateway code is in `infrastructure/public-domain/worker.mjs`.
